@@ -1,9 +1,12 @@
 USE erp;
 
+/*
 UPDATE status_logistico_pedido
-SET status_pedido='Entregue', data_status=now(), medidas_da_entrega='Recebido Por Clifford Devoe'
-WHERE pedido_id=34;
+SET status_pedido='Entregue', data_status=now(), medidas_da_entrega='Recebido Por Rodera'
+WHERE pedido_id=44;
+*/
 
+/*
 INSERT INTO pedido_logistica_evento (
 status_logistico_id, 
 status_pedido_snapshot, 
@@ -13,11 +16,12 @@ nome_do_usuario_que_alterou_o_status,
 cargo_do_usuario_que_alterou_o_status, 
 medidas_da_entrega_snapshot
 ) VALUES (
-30,
+41,
 'Entregue',
-now(),
+'2025-11-13 19:33:55',
 1,
 'Luiz Henrique',
-'Vendedor',
+'Vendedor Externo',
 'Recebido Por Rodera'
 );
+*/
