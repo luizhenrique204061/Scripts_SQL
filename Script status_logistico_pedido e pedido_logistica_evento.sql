@@ -9,12 +9,12 @@ WHERE pedido_id=44;
 /*
 INSERT INTO pedido_logistica_evento (
 status_logistico_id, 
-status_pedido_snapshot, 
-data_status_snapshot, 
+status_pedido, 
+data_status, 
 usuario_que_alterou_status_id, 
 nome_do_usuario_que_alterou_o_status, 
 cargo_do_usuario_que_alterou_o_status, 
-medidas_da_entrega_snapshot
+medidas_da_entrega
 ) VALUES (
 41,
 'Entregue',

@@ -11,8 +11,8 @@ WHERE pedido_id=44;
 /*
 INSERT INTO status_pagamento_evento (
 status_pagamento_id, 
-status_pagamento_snapshot, 
-data_status_snapshot, 
+status_pagamento, 
+data_status, 
 usuario_que_alterou_status_id, 
 nome_do_usuario_que_alterou_o_status, 
 cargo_do_usuario_que_alterou_o_status

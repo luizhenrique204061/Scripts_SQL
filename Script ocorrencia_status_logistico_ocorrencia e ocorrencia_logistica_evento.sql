@@ -23,7 +23,7 @@ WHERE ocorrencia_id=23;
 
 /*
 UPDATE ocorrencia_logistica_evento
-SET status_logisitico_snapshot='Entregue', medidas_da_entrega='Recebido por Rodera'
+SET status_logisitico='Entregue', medidas_da_entrega='Recebido por Rodera'
 WHERE status_logistico_ocorrencia_id=2;
 */
 
@@ -31,8 +31,8 @@ WHERE status_logistico_ocorrencia_id=2;
 /*
 INSERT INTO ocorrencia_logistica_evento (
 status_logistico_ocorrencia_id, 
-status_logisitico_snapshot, 
-data_status_snapshot, 
+status_logisitico, 
+data_status, 
 usuario_que_alterou_o_status_id, 
 nome_do_usuario_que_alterou_o_status, 
 cargo_do_usuaro_que_alterou_o_status,
