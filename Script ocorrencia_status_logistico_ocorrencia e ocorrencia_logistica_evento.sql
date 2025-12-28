@@ -2,15 +2,16 @@ USE erp;
 
 /*
 UPDATE ocorrencia
-SET aprovada_por_usuario_id=1, aprovada_por='Luiz Henrique', data_aprovacao=now(), status='Aprovada', comentario_do_avaliador='Ocorrência aprovada'
-WHERE id=26;
+SET aprovada_por_usuario_id=1, aprovada_por='Luiz Henrique', data_aprovacao=now(), status='Aprovada', comentario_do_avaliador='Ocorrência Aprovada'
+WHERE id=98;
 */
 
 /*
-INSERT INTO status_logistico_ocorrencia (ocorrencia_id, status_logistico, data_status) VALUES (
-	26,
-    'Descartado no Cliente',
-    now()
+INSERT INTO status_logistico_ocorrencia (ocorrencia_id, status_logistico, data_status, medidas_da_entrega) VALUES (
+	98,
+    'Entregue',
+    now(),
+    'Recebido Por Reodera'
 );
 */
 
@@ -38,13 +39,13 @@ nome_do_usuario_que_alterou_o_status,
 cargo_do_usuaro_que_alterou_o_status,
 medidas_da_entrega
 ) VALUES (
-	3,
-    'Descartado no Cliente',
-    '2025-10-17 12:11:40',
+	4,
+    'Entregue',
+    '2025-12-27 15:02:51',
     1,
     'Luiz Henrique',
     'Financeiro',
-    'Recebido por Rodera'
+    'Recebido Por Rodera'
 
 );
 */
