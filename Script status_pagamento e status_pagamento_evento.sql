@@ -3,7 +3,7 @@ USE erp;
 /*
 UPDATE status_pagamento
 SET status_do_pagamento='Aprovado', data_status=now()
-WHERE pedido_id=51;
+WHERE pedido_id=54;
 */
 
 
@@ -17,9 +17,9 @@ usuario_que_alterou_status_id,
 nome_do_usuario_que_alterou_o_status, 
 cargo_do_usuario_que_alterou_o_status
 ) VALUES (
-	45,
+	48,
     'Aprovado',
-    now(),
+    '2026-01-09 06:01:40',
     1,
     'Luiz Henrique',
     'Vendedor Externo'
