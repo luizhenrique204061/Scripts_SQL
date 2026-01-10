@@ -3,7 +3,7 @@ USE erp;
 /*
 UPDATE status_logistico_pedido
 SET status_pedido='Entregue', data_status=now(), medidas_da_entrega='Recebido Por Rodera'
-WHERE pedido_id=54;
+WHERE pedido_id=56;
 */
 
 /*
@@ -16,9 +16,9 @@ nome_do_usuario_que_alterou_o_status,
 cargo_do_usuario_que_alterou_o_status, 
 medidas_da_entrega
 ) VALUES (
-47,
+49,
 'Entregue',
-'2026-01-09 06:03:34',
+'2026-01-10 02:47:15',
 1,
 'Luiz Henrique',
 'Vendedor Externo',
